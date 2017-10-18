@@ -1,0 +1,16 @@
+# Project dependencies
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+.cache/
+# Build directory
+public/
+.DS_Store
+build-server
+api/vendor/
+api/wp/
+api/wp-content/plugins/*
+api/wp-content/languages/
+!api/wp-content/plugins/advanced-custom-fields-pro/
+.env
+uploads.zip
+yarn-error.log

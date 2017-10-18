@@ -1,0 +1,6 @@
+gatsby-config.js
+gatsby-node.js
+.cache/*
+public/*
+api/*
+build-server/*

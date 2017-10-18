@@ -1,0 +1,16 @@
+{
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "johnpbloch/wordpress": "4.8.x",
+    "wpackagist-plugin/acf-to-rest-api": "2.2.x"
+  },
+  "extra": {
+    "wordpress-install-dir": "wp"
+  }
+}

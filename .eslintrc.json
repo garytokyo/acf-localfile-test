@@ -1,0 +1,40 @@
+{
+  "extends": [
+    "airbnb"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import"
+  ],
+  "globals": {
+    "graphql": true
+  },
+  "settings": {
+    // These packages are provided 'magically' by Gatsby
+    "import/core-modules": [
+      "react",
+      "prop-types",
+      "config",
+      "react-helmet",
+      "styled-components",
+      "lodash",
+      "bluebird",
+      "slash"
+    ]
+  },
+  "rules": {
+    "import/extensions": ["off", "never"],
+    "jsx-a11y/img-has-alt": ["off", "never"],
+    "max-len": ["error", 80]
+  },
+  "env": {
+    "browser": true
+  }
+}
