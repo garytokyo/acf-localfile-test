@@ -8,7 +8,7 @@ api folder contains wordpress which is installed through composer. I have commit
 
     composer install
 
-The virtual host should be `demowordpressapi.local` and point it at the api folder. For ease probably just create databse with the details in the wp-config.
+The virtual host should be `demowordpressapi.local` and point it at the api folder. For ease probably just create databse with the details in the wp-config. User name for wordpress login is `gatsbyuser` and password is `!hM(htxSnX1vaCE4ZG`.
 To replicate the issue I am having run the following query in graphiql (you should find that localFile cannot be used):
 
 ```
