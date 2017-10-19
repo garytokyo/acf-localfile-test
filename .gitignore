@@ -7,7 +7,6 @@ public/
 .DS_Store
 build-server
 api/vendor/
-api/wp/
 .env
 uploads.zip
 yarn-error.log
