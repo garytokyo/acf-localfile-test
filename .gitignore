@@ -8,9 +8,6 @@ public/
 build-server
 api/vendor/
 api/wp/
-api/wp-content/plugins/*
-api/wp-content/languages/
-!api/wp-content/plugins/advanced-custom-fields-pro/
 .env
 uploads.zip
 yarn-error.log
